@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F3CF64525C7AA3000F412AC /* AirportsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF63225C7AA2D00F412AC /* AirportsAppApp.swift */; };
+		7F3CF64625C7AA3000F412AC /* AirportsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF63225C7AA2D00F412AC /* AirportsAppApp.swift */; };
+		7F3CF64725C7AA3000F412AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF63325C7AA2E00F412AC /* ContentView.swift */; };
+		7F3CF64825C7AA3000F412AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF63325C7AA2E00F412AC /* ContentView.swift */; };
+		7F3CF64925C7AA3000F412AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3CF63425C7AA3000F412AC /* Assets.xcassets */; };
+		7F3CF64A25C7AA3000F412AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3CF63425C7AA3000F412AC /* Assets.xcassets */; };
+		7F3CF69125C7B04500F412AC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF69025C7B04500F412AC /* Network.swift */; };
+		7F3CF6A125C7B19700F412AC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF6A025C7B19700F412AC /* Constants.swift */; };
+		7F3CF6A625C7B2E200F412AC /* NetAirPorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF6A525C7B2E200F412AC /* NetAirPorts.swift */; };
+		7F3CF6AC25C7B3CD00F412AC /* AirportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF6AB25C7B3CD00F412AC /* AirportsModel.swift */; };
+		7F3CF6B025C7B54B00F412AC /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF6AF25C7B54B00F412AC /* ResponseModel.swift */; };
+		7F3CF6B425C7B9A200F412AC /* KmRadiusSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF6B325C7B9A200F412AC /* KmRadiusSearchView.swift */; };
+		7F3CF6BA25C7D4D600F412AC /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF6B925C7D4D600F412AC /* TabBarView.swift */; };
+		7F3CF6BE25C7D4E900F412AC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF6BD25C7D4E900F412AC /* MapView.swift */; };
+		7F3CF6C225C7D4F600F412AC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF6C125C7D4F600F412AC /* ListView.swift */; };
+		7F3CF6D225C7D9FB00F412AC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF6D125C7D9FB00F412AC /* LocationManager.swift */; };
+		7F3CF6DA25C7DF3400F412AC /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF6D925C7DF3400F412AC /* LocationFetcher.swift */; };
+		7F3CF6DE25C7F0B900F412AC /* AirPortDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3CF6DD25C7F0B900F412AC /* AirPortDetailView.swift */; };
+		E44BADA860C72E1308E251CC /* Pods_AirportsApp__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD10E0EA6CC62CD4E93890A /* Pods_AirportsApp__macOS_.framework */; };
+		F9AF0B3EA0F9EE748FFE3349 /* Pods_AirportsApp__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16374E4FD072AD66C97F4FAC /* Pods_AirportsApp__iOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0417F77280F964AEE3F060CF /* Pods-AirportsApp (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportsApp (iOS).release.xcconfig"; path = "Target Support Files/Pods-AirportsApp (iOS)/Pods-AirportsApp (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		0CD10E0EA6CC62CD4E93890A /* Pods_AirportsApp__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportsApp__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16374E4FD072AD66C97F4FAC /* Pods_AirportsApp__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirportsApp__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		254D674830EE1DAEF2F74D77 /* Pods-AirportsApp (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportsApp (iOS).debug.xcconfig"; path = "Target Support Files/Pods-AirportsApp (iOS)/Pods-AirportsApp (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		7F3CF63225C7AA2D00F412AC /* AirportsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportsAppApp.swift; sourceTree = "<group>"; };
+		7F3CF63325C7AA2E00F412AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F3CF63425C7AA3000F412AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F3CF63925C7AA3000F412AC /* AirportsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3CF63C25C7AA3000F412AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3CF64125C7AA3000F412AC /* AirportsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3CF64325C7AA3000F412AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3CF64425C7AA3000F412AC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7F3CF69025C7B04500F412AC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		7F3CF6A025C7B19700F412AC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7F3CF6A525C7B2E200F412AC /* NetAirPorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetAirPorts.swift; sourceTree = "<group>"; };
+		7F3CF6AB25C7B3CD00F412AC /* AirportsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportsModel.swift; sourceTree = "<group>"; };
+		7F3CF6AF25C7B54B00F412AC /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		7F3CF6B325C7B9A200F412AC /* KmRadiusSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmRadiusSearchView.swift; sourceTree = "<group>"; };
+		7F3CF6B925C7D4D600F412AC /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		7F3CF6BD25C7D4E900F412AC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7F3CF6C125C7D4F600F412AC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		7F3CF6D125C7D9FB00F412AC /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		7F3CF6D925C7DF3400F412AC /* LocationFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
+		7F3CF6DD25C7F0B900F412AC /* AirPortDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPortDetailView.swift; sourceTree = "<group>"; };
+		97F5DE53606DE8C591157134 /* Pods-AirportsApp (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportsApp (macOS).release.xcconfig"; path = "Target Support Files/Pods-AirportsApp (macOS)/Pods-AirportsApp (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		C2C94736DEAB2AED99C0955A /* Pods-AirportsApp (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirportsApp (macOS).debug.xcconfig"; path = "Target Support Files/Pods-AirportsApp (macOS)/Pods-AirportsApp (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F3CF63625C7AA3000F412AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AF0B3EA0F9EE748FFE3349 /* Pods_AirportsApp__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3CF63E25C7AA3000F412AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44BADA860C72E1308E251CC /* Pods_AirportsApp__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69F1293FEDBAE142FDA94AF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				254D674830EE1DAEF2F74D77 /* Pods-AirportsApp (iOS).debug.xcconfig */,
+				0417F77280F964AEE3F060CF /* Pods-AirportsApp (iOS).release.xcconfig */,
+				C2C94736DEAB2AED99C0955A /* Pods-AirportsApp (macOS).debug.xcconfig */,
+				97F5DE53606DE8C591157134 /* Pods-AirportsApp (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F3CF62C25C7AA2D00F412AC = {
+			isa = PBXGroup;
+			children = (
+				7F3CF63125C7AA2D00F412AC /* Shared */,
+				7F3CF63B25C7AA3000F412AC /* iOS */,
+				7F3CF64225C7AA3000F412AC /* macOS */,
+				7F3CF63A25C7AA3000F412AC /* Products */,
+				69F1293FEDBAE142FDA94AF0 /* Pods */,
+				93B64530B83927B08F928B01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F3CF63125C7AA2D00F412AC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CF65725C7AB0700F412AC /* Views */,
+				7F3CF65625C7AA4E00F412AC /* App */,
+				7F3CF65525C7AA4700F412AC /* Domain */,
+				7F3CF65825C7AB1400F412AC /* NetWork */,
+				7F3CF63425C7AA3000F412AC /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7F3CF63A25C7AA3000F412AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CF63925C7AA3000F412AC /* AirportsApp.app */,
+				7F3CF64125C7AA3000F412AC /* AirportsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F3CF63B25C7AA3000F412AC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CF63C25C7AA3000F412AC /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		7F3CF64225C7AA3000F412AC /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CF64325C7AA3000F412AC /* Info.plist */,
+				7F3CF64425C7AA3000F412AC /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		7F3CF65525C7AA4700F412AC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CF6AF25C7B54B00F412AC /* ResponseModel.swift */,
+				7F3CF6AB25C7B3CD00F412AC /* AirportsModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7F3CF65625C7AA4E00F412AC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CF69D25C7B17900F412AC /* Utilities */,
+				7F3CF63225C7AA2D00F412AC /* AirportsAppApp.swift */,
+				7F3CF63325C7AA2E00F412AC /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7F3CF65725C7AB0700F412AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CF6B825C7D4BB00F412AC /* TabView */,
+				7F3CF6B725C7D4B200F412AC /* KmRadius */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7F3CF65825C7AB1400F412AC /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CF6A425C7B2D200F412AC /* Layers */,
+				7F3CF69025C7B04500F412AC /* Network.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		7F3CF69D25C7B17900F412AC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CF6A025C7B19700F412AC /* Constants.swift */,
+				7F3CF6D925C7DF3400F412AC /* LocationFetcher.swift */,
+				7F3CF6D125C7D9FB00F412AC /* LocationManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7F3CF6A425C7B2D200F412AC /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CF6A525C7B2E200F412AC /* NetAirPorts.swift */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		7F3CF6B725C7D4B200F412AC /* KmRadius */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CF6B325C7B9A200F412AC /* KmRadiusSearchView.swift */,
+			);
+			path = KmRadius;
+			sourceTree = "<group>";
+		};
+		7F3CF6B825C7D4BB00F412AC /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				7F3CF6B925C7D4D600F412AC /* TabBarView.swift */,
+				7F3CF6BD25C7D4E900F412AC /* MapView.swift */,
+				7F3CF6C125C7D4F600F412AC /* ListView.swift */,
+				7F3CF6DD25C7F0B900F412AC /* AirPortDetailView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		93B64530B83927B08F928B01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16374E4FD072AD66C97F4FAC /* Pods_AirportsApp__iOS_.framework */,
+				0CD10E0EA6CC62CD4E93890A /* Pods_AirportsApp__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F3CF63825C7AA3000F412AC /* AirportsApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3CF64D25C7AA3000F412AC /* Build configuration list for PBXNativeTarget "AirportsApp (iOS)" */;
+			buildPhases = (
+				10AC834035B90F0DD759D113 /* [CP] Check Pods Manifest.lock */,
+				7F3CF63525C7AA3000F412AC /* Sources */,
+				7F3CF63625C7AA3000F412AC /* Frameworks */,
+				7F3CF63725C7AA3000F412AC /* Resources */,
+				234C90904C30C914C5DF701A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AirportsApp (iOS)";
+			productName = "AirportsApp (iOS)";
+			productReference = 7F3CF63925C7AA3000F412AC /* AirportsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F3CF64025C7AA3000F412AC /* AirportsApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3CF65025C7AA3000F412AC /* Build configuration list for PBXNativeTarget "AirportsApp (macOS)" */;
+			buildPhases = (
+				4740ED7C42F2FF2530AEC945 /* [CP] Check Pods Manifest.lock */,
+				7F3CF63D25C7AA3000F412AC /* Sources */,
+				7F3CF63E25C7AA3000F412AC /* Frameworks */,
+				7F3CF63F25C7AA3000F412AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AirportsApp (macOS)";
+			productName = "AirportsApp (macOS)";
+			productReference = 7F3CF64125C7AA3000F412AC /* AirportsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F3CF62D25C7AA2D00F412AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					7F3CF63825C7AA3000F412AC = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					7F3CF64025C7AA3000F412AC = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 7F3CF63025C7AA2D00F412AC /* Build configuration list for PBXProject "AirportsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F3CF62C25C7AA2D00F412AC;
+			productRefGroup = 7F3CF63A25C7AA3000F412AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F3CF63825C7AA3000F412AC /* AirportsApp (iOS) */,
+				7F3CF64025C7AA3000F412AC /* AirportsApp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F3CF63725C7AA3000F412AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3CF64925C7AA3000F412AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3CF63F25C7AA3000F412AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3CF64A25C7AA3000F412AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10AC834035B90F0DD759D113 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirportsApp (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		234C90904C30C914C5DF701A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirportsApp (iOS)/Pods-AirportsApp (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirportsApp (iOS)/Pods-AirportsApp (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirportsApp (iOS)/Pods-AirportsApp (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4740ED7C42F2FF2530AEC945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirportsApp (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F3CF63525C7AA3000F412AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3CF6DA25C7DF3400F412AC /* LocationFetcher.swift in Sources */,
+				7F3CF6DE25C7F0B900F412AC /* AirPortDetailView.swift in Sources */,
+				7F3CF6A625C7B2E200F412AC /* NetAirPorts.swift in Sources */,
+				7F3CF64725C7AA3000F412AC /* ContentView.swift in Sources */,
+				7F3CF64525C7AA3000F412AC /* AirportsAppApp.swift in Sources */,
+				7F3CF6AC25C7B3CD00F412AC /* AirportsModel.swift in Sources */,
+				7F3CF6B425C7B9A200F412AC /* KmRadiusSearchView.swift in Sources */,
+				7F3CF6B025C7B54B00F412AC /* ResponseModel.swift in Sources */,
+				7F3CF69125C7B04500F412AC /* Network.swift in Sources */,
+				7F3CF6BE25C7D4E900F412AC /* MapView.swift in Sources */,
+				7F3CF6D225C7D9FB00F412AC /* LocationManager.swift in Sources */,
+				7F3CF6C225C7D4F600F412AC /* ListView.swift in Sources */,
+				7F3CF6BA25C7D4D600F412AC /* TabBarView.swift in Sources */,
+				7F3CF6A125C7B19700F412AC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3CF63D25C7AA3000F412AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3CF64825C7AA3000F412AC /* ContentView.swift in Sources */,
+				7F3CF64625C7AA3000F412AC /* AirportsAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F3CF64B25C7AA3000F412AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F3CF64C25C7AA3000F412AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7F3CF64E25C7AA3000F412AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254D674830EE1DAEF2F74D77 /* Pods-AirportsApp (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63AJC847ZW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.landercorp.AirportsApp;
+				PRODUCT_NAME = AirportsApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F3CF64F25C7AA3000F412AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0417F77280F964AEE3F060CF /* Pods-AirportsApp (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63AJC847ZW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.landercorp.AirportsApp;
+				PRODUCT_NAME = AirportsApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F3CF65125C7AA3000F412AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C94736DEAB2AED99C0955A /* Pods-AirportsApp (macOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63AJC847ZW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.landercorp.AirportsApp;
+				PRODUCT_NAME = AirportsApp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7F3CF65225C7AA3000F412AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F5DE53606DE8C591157134 /* Pods-AirportsApp (macOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63AJC847ZW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.landercorp.AirportsApp;
+				PRODUCT_NAME = AirportsApp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F3CF63025C7AA2D00F412AC /* Build configuration list for PBXProject "AirportsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3CF64B25C7AA3000F412AC /* Debug */,
+				7F3CF64C25C7AA3000F412AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3CF64D25C7AA3000F412AC /* Build configuration list for PBXNativeTarget "AirportsApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3CF64E25C7AA3000F412AC /* Debug */,
+				7F3CF64F25C7AA3000F412AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3CF65025C7AA3000F412AC /* Build configuration list for PBXNativeTarget "AirportsApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3CF65125C7AA3000F412AC /* Debug */,
+				7F3CF65225C7AA3000F412AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F3CF62D25C7AA2D00F412AC /* Project object */;
+}

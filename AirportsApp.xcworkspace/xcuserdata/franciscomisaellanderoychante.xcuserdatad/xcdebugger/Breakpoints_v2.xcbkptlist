@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E1B34988-DECE-454C-8785-55C55E52A474"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D3F8A72-B923-4246-AA62-7C2FA2AEBCA6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/NetWork/Layers/NetAirPorts.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "baseURL"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DBCE153-204D-4BD9-9FD3-28D147638DEB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/NetWork/Layers/NetAirPorts.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "path"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "6DBCE153-204D-4BD9-9FD3-28D147638DEB - c80a0e77fd6bba57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AirportsApp.NetAirPorts.path.getter : Swift.String"
+                  moduleName = "AirportsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/franciscomisaellanderoychante/proyects/AirportsApp/Shared/NetWork/Layers/NetAirPorts.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "6DBCE153-204D-4BD9-9FD3-28D147638DEB - c80a0e77fd6bba57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AirportsApp.NetAirPorts.path.getter : Swift.String"
+                  moduleName = "AirportsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/franciscomisaellanderoychante/proyects/AirportsApp/Shared/NetWork/Layers/NetAirPorts.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "720">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01640678-3B1A-41B2-A8F9-EE01B7A7DD8B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/NetWork/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "request(target:load:success:error:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "01640678-3B1A-41B2-A8F9-EE01B7A7DD8B - 6941e30ce8d15adc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Result.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in AirportsApp.Network.request(target: B, load: Swift.Bool, success: (A) -&gt; (), error: (AirportsApp.ResponseModel.RError) -&gt; (), failure: (Moya.MoyaError) -&gt; ()) -&gt; ()"
+                  moduleName = "AirportsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/franciscomisaellanderoychante/proyects/AirportsApp/Shared/NetWork/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "772">
+               </Location>
+               <Location
+                  uuid = "01640678-3B1A-41B2-A8F9-EE01B7A7DD8B - 6941e30ce8d15adc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Result.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in AirportsApp.Network.request(target: B, load: Swift.Bool, success: (A) -&gt; (), error: (AirportsApp.ResponseModel.RError) -&gt; (), failure: (Moya.MoyaError) -&gt; ()) -&gt; ()"
+                  moduleName = "AirportsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/franciscomisaellanderoychante/proyects/AirportsApp/Shared/NetWork/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "808">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89B18293-243D-47BE-9E8C-B758A22E1520"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Views/TabView/MapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "MapView"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
